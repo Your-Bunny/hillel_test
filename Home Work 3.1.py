@@ -13,6 +13,3 @@ elif b == '/':
         print(a / b)
     else:
         print('Делить на 0 нельзя')
-
-
-
