@@ -1,8 +1,18 @@
-a = int(input(".."))
+a = int(input('Введите число '))
+b = input('Введите действие (+,-,*,/) ')
+c = int(input('Введите число '))
 
-b = a*10
-c = b+a*55
-d = b*c-1
-e = a+b*c
+if b == '+':
+    print(a + c)
+elif b == '-':
+    print(a - c)
+elif b == '*':
+    print(a * c)
+elif b == '/':
+    if c != 0:
+        print(a / b)
+    else:
+        print('Делить на 0 нельзя')
 
-print(e)
+
+
