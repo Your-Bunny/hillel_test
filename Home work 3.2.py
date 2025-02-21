@@ -3,5 +3,3 @@ print(lst)
 x = lst.pop()
 lst.insert(0,x)
 print(lst)
-
-
